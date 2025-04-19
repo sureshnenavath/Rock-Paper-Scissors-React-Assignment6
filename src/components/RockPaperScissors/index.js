@@ -5,7 +5,7 @@ import {RiCloseLine} from 'react-icons/ri'
 import Popup from 'reactjs-popup'
 
 import 'reactjs-popup/dist/index.css'
-
+import Footer from '../Footer'
 import GameOptions from '../GameOptions'
 
 import {
@@ -298,6 +298,7 @@ class RockPaperScissors extends Component {
             )}
           </Popup>
         </PopupContainer>
+        <Footer />
       </AppContainer>
     )
   }
